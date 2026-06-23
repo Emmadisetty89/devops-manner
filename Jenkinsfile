@@ -21,4 +21,7 @@ pipeline{
             steps{
                bat 'mvn package'
     }
+	stage('deploy'){
+            steps{
+               bat 'mvn package'
 }
