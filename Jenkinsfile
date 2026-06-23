@@ -21,4 +21,5 @@ pipeline{
             steps{
                bat 'mvn package'
     }
+	i want to deploy the application 
 }
