@@ -24,4 +24,5 @@ pipeline{
 	stage('deploy'){
             steps{
                bat 'mvn package'
+				i need to modify the data and transfer all the content  to main branch
 }
